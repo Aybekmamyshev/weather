@@ -2,8 +2,7 @@ import './style.scss';
 
 const audioF = new Audio('./sounds/summer.mp3')
 const audioS = new Audio('./sounds/rain.mp3')
-const audioT = new Audio('./sounds/winter.mp3')
-
+const audioT = new Audio('./sounds/winter.mp3');
 
 const range = document.getElementById('range')
 const num = document.querySelector('.weather__span')

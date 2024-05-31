@@ -15,11 +15,18 @@
   "author": "Aibek",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.3.0",
     "audiosprite-loader": "^0.1.5",
     "audiosprite-webpack-plugin": "^0.1.7",
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^7.1.1",
     "css-minimizer-webpack-plugin": "^7.0.0",
+    "eslint": "^9.3.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "globals": "^15.3.0",
     "html-loader": "^5.0.0",
     "html-webpack-plugin": "^5.6.0",
     "mini-css-extract-plugin": "^2.9.0",
@@ -34,6 +41,9 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4",
     "webpack-merge": "^5.10.0"
+  },
+  "overrides": {
+    "eslint": "^9.3.0"
   },
   "dependencies": {
     "postcss-preset-env": "^9.5.13"
